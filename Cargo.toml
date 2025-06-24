@@ -1,6 +1,12 @@
-[package]
-name = "pygmalion"
-version = "0.1.0"
-edition = "2025"
+[workspace]
+resolver = "2"
+members = ["crates/*"]
 
-[dependencies]
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Pygmalion Developers and Contributors"]
+description = "Pygmalion - A modular Rust project"
+license = "MIT"
+
+[workspace.dependencies]

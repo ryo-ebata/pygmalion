@@ -1,0 +1,11 @@
+[package]
+name = "pygmalion"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+license.workspace = true
+
+[dependencies]
+pygma_parser = { path = "../pygma_parser" }
+pygma_render = { path = "../pygma_render" }
