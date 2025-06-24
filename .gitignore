@@ -1,0 +1,7 @@
+/target
+
+# system
+.DS_Store
+
+# AI
+plan.md
